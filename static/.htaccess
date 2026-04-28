@@ -1,3 +1,5 @@
+ErrorDocument 404 /404.html
+
 &lt;IfModule mod_expires.c&gt;
   ExpiresActive On 
   
@@ -23,3 +25,4 @@
   ExpiresByType application/x-font-woff2  &quot;access plus 1 year&quot;
 &lt;/IfModule&gt;
 
+RedirectPermanent /osuny/ https://www.osuny.org
