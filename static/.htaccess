@@ -1,0 +1,25 @@
+&lt;IfModule mod_expires.c&gt;
+  ExpiresActive On 
+  
+  AddType application/font-woff   .woff
+  AddType application/font-woff2  .woff2
+
+  ExpiresByType image/png &quot;access plus 1 year&quot;
+  ExpiresByType image/gif &quot;access plus 1 year&quot;
+  ExpiresByType image/jpeg &quot;access plus 1 year&quot;
+  ExpiresByType image/svg &quot;access plus 1 year&quot;
+  ExpiresByType image/svg+xml &quot;access plus 1 year&quot;
+  ExpiresByType text/css &quot;access plus 1 year&quot;
+  ExpiresByType text/js &quot;access plus 1 year&quot;
+  ExpiresByType text/javascript &quot;access plus 1 year&quot;
+  ExpiresByType application/javascript &quot;access plus 1 year&quot;
+  ExpiresByType application/x-javascript &quot;access plus 1 year&quot;
+
+  ExpiresByType font/woff  &quot;access plus 1 year&quot;
+  ExpiresByType application/font-woff  &quot;access plus 1 year&quot;
+  ExpiresByType application/x-font-woff  &quot;access plus 1 year&quot;
+  ExpiresByType font/woff2  &quot;access plus 1 year&quot;
+  ExpiresByType application/font-woff2  &quot;access plus 1 year&quot;
+  ExpiresByType application/x-font-woff2  &quot;access plus 1 year&quot;
+&lt;/IfModule&gt;
+
