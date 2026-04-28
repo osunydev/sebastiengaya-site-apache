@@ -25,4 +25,5 @@ ErrorDocument 404 /404.html
   ExpiresByType application/x-font-woff2  "access plus 1 year"
 </IfModule>
 
+RedirectPermanent /2-4-66-release/ /actualites/2025-02-04-apache-http-server-2-4-66-released/
 RedirectPermanent /osuny/ https://www.osuny.org
