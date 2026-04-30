@@ -27,9 +27,7 @@ ErrorDocument 404 /error.html
   ExpiresByType application/x-font-woff2  "access plus 1 year"
 </IfModule>
 
-<Directory "/en">
-  ErrorDocument 404 /en/404.html
-</Directory>
+
 
 RedirectMatch permanent "^/2\-4\-66\-release(/?)$" "/fr/actualites/2025-02-04-apache-http-server-2-4-66-released/"
 RedirectMatch permanent "^/mentions\-legales(/?)$" "/fr/mentions-legales/"
