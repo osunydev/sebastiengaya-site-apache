@@ -3,7 +3,7 @@ title: Informations légales
 items:
 - title: Plan du site
   slug: plan-du-site
-  target: "/plan-du-site/"
+  target: "/fr/plan-du-site/"
   kind: page
   new_tab: false
   children: []

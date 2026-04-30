@@ -29,5 +29,16 @@ ErrorDocument 404 /404.html
 
 
 
-RedirectPermanent /2-4-66-release/ /actualites/2025-02-04-apache-http-server-2-4-66-released/
+RedirectPermanent /2-4-66-release/ /fr/actualites/2025-02-04-apache-http-server-2-4-66-released/
+RedirectPermanent /mentions-legales/ /fr/mentions-legales/
+RedirectPermanent /actualites/ /fr/actualites/
 RedirectPermanent /osuny/ https://www.osuny.org
+RedirectPermanent /personnes/ /fr/personnes/
+RedirectPermanent /actualites/2018-01-01-apache-httpd-2-2-end-of-life/ /fr/actualites/2018-01-01-apache-httpd-2-2-end-of-life/
+RedirectPermanent / /fr/
+RedirectPermanent /accessibilite/ /fr/accessibilite/
+RedirectPermanent /plan-du-site/ /fr/plan-du-site/
+RedirectPermanent /organisations/ /fr/organisations/
+RedirectPermanent /actualites/2025-02-04-apache-http-server-2-4-66-released/ /fr/actualites/2025-02-04-apache-http-server-2-4-66-released/
+RedirectPermanent /politique-de-confidentialite/ /fr/politique-de-confidentialite/
+RedirectPermanent /personnes/equipe-editoriale/ /fr/personnes/equipe-editoriale/
